@@ -50,11 +50,30 @@
 
 ### 工具
   - dirsearch
-  - Gobuster
+    - Kali 上沒有，可自行安裝
+      ```sh
+      sudo apt install dirsearch
+      ```
+    - **使用方法**
+      ```sh
+       dirsearch -u "url"
+      ```
+  - gobuster
+    - Kali 上沒有，可自行安裝
+      ```sh
+      sudo apt install gobuster
+      ```
+    - **使用方法**
+      - 待補
 ### 不該出現的頁面
   - .env
   - phpinfo
   - .git
+  - CKfinder
+  - cgi-bin
   - upload.php（進去看有沒有可以try的點）
   - login.php（進去看有沒有可以try的點）
   - etc..
+  - 感覺奇怪的都去看
+
+## Injection
