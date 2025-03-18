@@ -79,4 +79,5 @@
 ## Injection
 ### CRLF injection
   - [筆記](https://www.notion.so/CRLF-Injection-1b9997876c1380e4bc7cccad27ecd62f?pvs=4)
-
+### SQL injection
+  - [筆記](https://www.notion.so/SQL-Injection-1ba997876c138098bed3c44d005558b3?pvs=4)
