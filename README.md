@@ -36,7 +36,16 @@
       ```
       ![image](https://github.com/Kazusa613732/Hitmap-ver.1/blob/main/img/rustscan1.png)
   - nmap
-
+    - **使用方法**
+      - 作業系統、服務版本
+      ```sh
+       nmap -A ip or domain
+      ```
+      - 指定port
+      ```sh
+       nmap -A -p22,80,1000 ip
+      ```
+      - 很多...未來待補
 ## 目錄爆破
 
 ### 工具
