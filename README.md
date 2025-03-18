@@ -77,3 +77,6 @@
   - 感覺奇怪的都去看
 
 ## Injection
+### CRLF injection
+  - [筆記](https://www.notion.so/CRLF-Injection-1b9997876c1380e4bc7cccad27ecd62f?pvs=4)
+
