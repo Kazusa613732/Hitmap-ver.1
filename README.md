@@ -13,8 +13,6 @@
       - Step 2. 開終端機
           ```sh
           cd Downloads
-          ```
-          ```sh
           ls
           ```
       - Step 3. 把下載的檔案開啟權限
