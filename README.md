@@ -34,6 +34,7 @@
       ```zsh
       rustscan -a ip or domain
       ```
+      ![image](https://github.com/Kazusa613732/Hitmap-ver.1/blob/main/img/rustscan1.png)
   - nmap
 
 ## 目錄爆破
