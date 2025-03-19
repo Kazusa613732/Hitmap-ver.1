@@ -49,7 +49,7 @@
       - 很多...未來待補
         
   - nuclei
-    -  弱掃工具
+    -  弱掃工具（效果待確）
     -  Kali 上面沒有，可直接 sudo apt install nuclei
     -  **使用方法**
       ```sh
@@ -90,3 +90,12 @@
   - [筆記](https://www.notion.so/CRLF-Injection-1b9997876c1380e4bc7cccad27ecd62f?pvs=4)
 ### SQL injection
   - [筆記](https://www.notion.so/SQL-Injection-1ba997876c138098bed3c44d005558b3?pvs=4)
+  - 最最基本檢測方式
+    - 在參數後輸入'進行測試，出現報錯、500error，基本上可以直接用SQLmap進行確認了
+    - 利用不同編碼bypass
+    - 'AND1=1，可測錯誤注入、盲注
+  - SQLmap
+    - **指令**
+      ```sh
+      sqlmap -u “url” --random-agent --tamper space2comment,space2hash,space2mssqlhash --dbs
+      ```
