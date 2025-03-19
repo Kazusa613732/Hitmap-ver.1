@@ -1,6 +1,6 @@
 # Hitmap-ver.1
 
-## 掃描
+## 掃描、資訊蒐集
 
 ### 工具
   - rustscan
@@ -55,6 +55,11 @@
       ```sh
       nuclei -u url 
       ```
+  - Wappalyzer（chrome插件）
+    -  可以看到網站是用那些框架、套件、部分版本
+  - DotGit（chrome插件）
+    -  可以偵測到有沒有.git洩漏
+    -  有的話，可以透過 Kali 安裝 Githack 來查看
 ## 目錄爆破
 
 ### 工具
