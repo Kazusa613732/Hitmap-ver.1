@@ -55,11 +55,19 @@
       ```sh
       nuclei -u url 
       ```
-  - Wappalyzer（chrome插件）
+  - Wappalyzer（Chrome插件）
     -  可以看到網站是用那些框架、套件、部分版本
-  - DotGit（chrome插件）
+  - DotGit（Chrome插件）
     -  可以偵測到有沒有.git洩漏
     -  有的話，可以透過 Kali 安裝 Githack 來查看
+    -  安裝
+       ```sh
+       git clone https://github.com/lijiejie/GitHack.git
+       ```
+    -  **使用方法**
+      ```sh
+      python Githack.py URL/.git
+      ```
 ## 目錄爆破
 
 ### 工具
@@ -113,3 +121,5 @@
       #其他參數
       --delay 1（延遲一秒）、--level 1~5、--risk 1~5（更多注入手段會更久）
       ```
+  ### XSS
+  ## CVE 2024-4577
