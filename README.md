@@ -35,6 +35,7 @@
       rustscan -a ip or domain
       ```
       ![image](https://github.com/Kazusa613732/Hitmap-ver.1/blob/main/img/rustscan1.png)
+      
   - nmap
     - **使用方法**
       - 作業系統、服務版本
@@ -46,6 +47,14 @@
        nmap -A -p22,80,1000 ip
       ```
       - 很多...未來待補
+        
+  - nuclei
+    -  弱掃工具
+    -  Kali 上面沒有，可直接 sudo apt install nuclei
+    -  **使用方法**
+      ```sh
+      nuclei -u url 
+      ```
 ## 目錄爆破
 
 ### 工具
