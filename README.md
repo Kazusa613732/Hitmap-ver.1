@@ -64,10 +64,10 @@
        ```sh
        git clone https://github.com/lijiejie/GitHack.git
        ```
-    -  **使用方法**
-      ```sh
-      python Githack.py URL/.git
-      ```
+    - **使用方法**
+        ```sh
+        python Githack.py URL/.git
+        ```
 ## 目錄爆破
 
 ### 工具
