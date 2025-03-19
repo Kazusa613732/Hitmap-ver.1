@@ -123,3 +123,11 @@
       ```
   ### XSS
   ## CVE 2024-4577
+  - 此弱點影響安裝於 Windows 作業系統上所有的 PHP 版本
+    - PHP 8.3 < 8.3.8
+    - PHP 8.2 < 8.2.20
+    - PHP 8.1 < 8.1.29
+  - 常見之 Apache HTTP Server 加上 PHP 組合
+  - 所有版本的 XAMPP for Windows 安裝也預設受此弱點影響
+
+
