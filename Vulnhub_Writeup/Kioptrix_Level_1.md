@@ -15,3 +15,8 @@
     - ports
       - 22,80,111,139,443,1024
     ![nmap掃描port](https://github.com/Kazusa613732/Hitmap-ver.1/blob/main/Vulnhub_Writeup/Vulnhub_img/kioptrix-level-1-1_nmap.png)
+
+  - nikto 掃描（容易產生大量請求，實際環境容易被擋）
+    ```sh
+    nikto -h ip
+    ```
