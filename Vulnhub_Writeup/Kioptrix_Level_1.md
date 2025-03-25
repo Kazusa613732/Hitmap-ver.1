@@ -12,3 +12,4 @@
     # -sV 開啟服務版本偵測功能
     # -T4 指定掃描的時間模板。T4 表示快速模式，會加速掃描過程，但可能對網路造成更大的流量壓力
     ```
+    ![nmap掃描port](https://github.com/Kazusa613732/Hitmap-ver.1/blob/main/Vulnhub_Writeup/Vulnhub_img/kioptrix-level-1-1_nmap.png)
