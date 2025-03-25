@@ -20,3 +20,8 @@
     ```sh
     nikto -h ip
     ```
+## 利用版本資訊
+  - 掃描後，發現使用 mod_ssl/2.8.4 ，去查一下有沒有漏洞或PoC（不只這個，其他像是 Samba 之類的也可以去查看看）
+  - mod_ssl/2.8.4 PoC
+  - Github :　https://github.com/heltonWernik/OpenLuck
+  - 依照步驟進行獲取目標機器的root權限
